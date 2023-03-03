@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Dom Example</title>
+    </head>
+
+    <body>
+        <h1>Welcome to Winx</h1>
+
+        <button class="redBtn">red</button>
+        <button class="pinkBtn">pink</button>
+        <button class="blueBtn">blue</button>
+        <button class="greenBtn">green</button>
+        <button class="violetBtn">violet</button>
+        <button class="orangeBtn">orange</button>
+        <button class="yellowBtn">yellow</button>
+       
+        <script>
+            var red = document.querySelector(".redBtn");
+            red.addEventListener("click", function (){
+                document.querySelector("body").style.background = "red";
+            });
+
+            var pink = document.querySelector(".pinkBtn");
+            pink.addEventListener("click", function (){
+                document.querySelector("body").style.background = "pink";
+            });
+
+            var blue = document.querySelector(".blueBtn");
+            blue.addEventListener("click", function (){
+                document.querySelector("body").style.background = "blue";
+            });
+
+            var green = document.querySelector(".greenBtn");
+            green.addEventListener("click", function (){
+                document.querySelector("body").style.background = "green";
+            });
+
+            var violet = document.querySelector(".violetBtn");
+            violet.addEventListener("click", function (){
+                document.querySelector("body").style.background = "violet";
+            });
+
+            var orange = document.querySelector(".orangeBtn");
+            orange.addEventListener("click", function (){
+                document.querySelector("body").style.background = "orange";
+            });
+
+            var yellow = document.querySelector(".yellowBtn");
+            yellow.addEventListener("click", function (){
+                document.querySelector("body").style.background = "yellow";
+            });
+
+        </script>
+        <div>
+            <h1 class="myTarget">Target</h1>
+            <p>Types of Winx<br>
+
+                <br>Winx
+                <br>Charmix
+                <br>Enchantix
+            </p>
+        </div>
+    </body>
+
+</html>
